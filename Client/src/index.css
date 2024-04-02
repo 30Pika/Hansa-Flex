@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,400;1,300&family=Red+Hat+Display:ital,wght@1,400;1,700;1,900&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display',sans-serif;
+}
+:root{
+  --Champagne-color:#E4D4C8;
+  --Pewter-color:#E2E6E7;
+  --Black-color:#201A1E;
+  --Dark-color:#D0B49F;
+}
+body{
+  background-color: var(--Dark-color);
+  color:var(--Black-color);
+}
+
+/* font-family: 'Poppins', 'Playfair Display', serif, 'Kaushan Script', cursive,
+'Red Hat Display', sans-serif; */
+
+/* =========================Navbar Css ======================= */
+.text{
+  color:rgb(174, 0, 255);
+}
+
+.active:hover{
+  color:rgb(55, 255, 0);
+  font-size: 100px;
+  border-bottom: 1px solid rgb(55, 255, 0);
+  transition: 0.5 ;
+}
+
+/* Footer Css */
+
+.footer-li{
+  text-decoration: none;
+  color:#fff;
+  margin-left:10px;
+  margin-right:10px;
+}
+.footer-li:hover{
+  border-bottom:#fff;
+}
+
+/* ===========================Home css============================= */
+.carousel-inner{
+  height: 90vh;
+}
+
+/* =========contact us ========= */
+.contactus {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
